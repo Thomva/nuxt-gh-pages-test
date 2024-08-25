@@ -1,0 +1,11 @@
+* {
+  font-family: $font-family-base;
+}
+
+// Style headings
+@for $i from 1 through 6 {
+  h#{$i} {
+    color: $color-dark;
+    font-weight: 700;
+  }
+}
